@@ -1,0 +1,49 @@
+img{
+    width: 150px;
+    height: 300px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    margin-left: 100px;
+
+}
+ul{
+    display: flex;
+   
+
+}
+.lista{
+    margin-left: 100px;
+}
+.show{
+    position: absolute;
+    color: rgb(6, 77, 6);
+    right: 25%;
+    top: 30%;
+}
+.button{
+    width: 200px;
+    padding: 10px;
+    color: grey;
+    background-color: white;
+    border: 1px solid gray;
+}
+.checkbox{
+    display: flex;
+    gap: 20px;
+}
+
+footer{
+
+    margin-left: 400px;
+}

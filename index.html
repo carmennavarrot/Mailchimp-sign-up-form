@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAilchimp
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <main>
+    <img src="./images/new-mailchimp-logo-vertical-black.png" alt="logo_mailchimp">
+    <div class="text">
+    <h1>Welcome to Mailchimp</h1>
+    <p>Find tour people.Engage your customers.Build your brand.Do it all with Mailchimp´s Marketing Platform.Alredy have an account? <a href="#">Log in</a></p>
+    <form action="/mypagina" method="post" class="formulario">
+    <label for="email">Email</label>
+    <input type="text" id="email" required>
+    <label for="user_name">Username</label>
+    <input type="text" id="user_name" required minlength="6" maxlength="10">
+    <span class="show">
+    <i class="fa-regular fa-eye"></i></span>
+    <label for="password">Password</label>
+    <input type="password" id="password" pattern="/(?=.*[1-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@\!\"\#\$\%\\\&/\(\)\?\|]).{8,15}\" required>
+    
+    <ul>
+        <div>
+        <li>One lowecase character</li>
+        <li>One uppercase character</li>
+        <li>One number</li>
+    </div>
+        <div class="lista">
+        <li>One special character</li>
+        <li>8 characters minimum</li>
+    </div>
+    </ul>
+    <div class="checkbox">
+    <button type="submit" class="button">Sign Up</button>
+    <input type="checkbox" name="a">
+    I don´t want to receive emails about new Mailchimp products,best practices, or special offers.
+    </div>
+</div>
+</form>
+</main>
+<footer>
+<p>By clickyng the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp´s <a href="#">Terms of Use</a> and <a href="#">Privacy Policy,</a></p>
+</footer>
+</body>
+</html>
